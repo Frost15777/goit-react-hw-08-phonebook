@@ -17,20 +17,13 @@ export const Input = styled.input`
 `;
 
 export const Button = styled.button`
-  > svg {
-    width: 40px;
-    height: 30px;
-    fill: #02ba52;
-  }
-  /* padding: 10px 20px; */
+  padding: 10px 20px;
   margin-top: 5px;
   font-size: 14px;
   border-radius: 6px;
   border: 1px solid;
   :hover {
-    > svg {
-      fill: #fff;
-    }
+    background-color: #e0e0e0;
   }
 `;
 
